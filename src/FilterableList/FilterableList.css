@@ -1,0 +1,5 @@
+.FilterableList {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem 3rem 3rem;
+}

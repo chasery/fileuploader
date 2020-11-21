@@ -1,0 +1,19 @@
+.SearchBar {
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+}
+
+.SearchBar__heading {
+  align-self: flex-start;
+  flex-grow: 1;
+}
+.SearchBar__heading h1 {
+  margin: 0;
+}
+
+.SearchBar__controls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

@@ -1,0 +1,39 @@
+.ListItem {
+  display: flex;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0.0625rem 0.0625rem #00000011;
+}
+
+.ListItem__content {
+  display: flex;
+  flex-grow: 1;
+}
+
+.ListItem__icon {
+  font-size: 2rem;
+  padding: 2rem;
+}
+.ListItem__heading {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+}
+.ListItem__title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.ListItem__actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: flex-end;
+  padding: 0 2rem;
+}
+.ListItem__status {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
