@@ -1,0 +1,10 @@
+.ControlBar {
+  display: flex;
+}
+
+.ControlBar__btn {
+  margin-right: 1rem;
+}
+.ControlBar__btn:last-child {
+  margin-right: 0;
+}
